@@ -14,13 +14,6 @@ export const Login = () => {
     navigate('/')
   }
   const Container = styled.div`
-          height: 200px;
-          width: 300px;
-          display: flex;
-          flex-direction:column;
-          justify-content: center;
-          align-items: center;
-          margin: 100px auto;
     `
   return (
     <Container>

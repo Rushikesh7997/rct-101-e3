@@ -13,19 +13,13 @@ export const Products = () => {
 
   //styled components
   const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  padding: 50px 130px;
+ 
 `
 const Image = styled.img`
     max-width: 100%;
 `
 const Card = styled.div`
-    padding: 10px;
-    height: 10em;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    
 `
 
   return (

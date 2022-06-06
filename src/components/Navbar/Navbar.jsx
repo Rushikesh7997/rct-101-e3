@@ -11,18 +11,8 @@ import { CartContext } from "../../context/CartContext";
 const Navbar = () => {
   const navigate = useNavigate()
   let Container = styled.div`
-           height: 2.6em;
-           border-bottom:0.5px solid black;
-           display: flex;
-           align-items: center;
-           justify-content: space-around;
-         padding:5px 3em;
        `
      let Section = styled.div`
-          min-width: 80px;
-          text-align:center;
-          border: 2px solid green;
-  
        `
 
   const {handleAuth}= useContext(AuthContext)

@@ -35,18 +35,7 @@ const Product = () => {
 
 
 
-       const Container = styled.div`
-        height : 500px;
-        width: 800px;
-        margin: 100px auto;
-        box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        background-color: whitesmoke;
-        padding: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
-       `
+       
   return (
     <Container data-cy={`product-${prod.id}`}>
       <h1 data-cy="product-name">{prod.name}</h1>
