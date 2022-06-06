@@ -35,7 +35,9 @@ const Product = () => {
 
 
 
-       
+       const Container = styled.div`
+        
+       `
   return (
     <Container data-cy={`product-${prod.id}`}>
       <h1 data-cy="product-name">{prod.name}</h1>
